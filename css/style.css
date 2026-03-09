@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #f8f9fa;
+  color: #222;
+}
+
+/* NAVBAR */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background: #0d1b2a;
+  color: white;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 25px;
+  font-weight: 400;
+}
+
+/* HERO */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px;
+  gap: 40px;
+}
+
+.hero-text {
+  flex: 1;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero-text span {
+  color: #3a86ff;
+}
+
+.hero-text p {
+  margin-bottom: 25px;
+  line-height: 1.6;
+}
+
+.hero-buttons button {
+  margin-right: 10px;
+}
+
+.hero-img {
+  flex: 1;
+}
+
+.hero-img img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+/* BUTTONS */
+.btn-primary {
+  background: #3a86ff;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.btn-outline {
+  background: transparent;
+  border: 2px solid #3a86ff;
+  color: #3a86ff;
+  padding: 10px 22px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+/* FEATURES */
+.features {
+  padding: 60px;
+  text-align: center;
+  background: #edf2fb;
+}
+
+.features h2 {
+  margin-bottom: 40px;
+}
+
+.feature-grid {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.feature-card {
+  background: white;
+  padding: 30px;
+  width: 250px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.feature-card i {
+  font-size: 28px;
+  color: #3a86ff;
+  margin-bottom: 15px;
+}
+
+/* ABOUT */
+.about {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 60px;
+}
+
+.about img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.about-text {
+  flex: 1;
+}
+
+/* CTA */
+.cta {
+  text-align: center;
+  padding: 60px;
+  background: #0d1b2a;
+  color: white;
+}
+
+.cta h2 {
+  margin-bottom: 20px;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #020617;
+  color: white;
+  font-size: 14px;
+}
